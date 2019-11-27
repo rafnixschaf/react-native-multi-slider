@@ -1,3 +1,6 @@
+# !Important
+This is just a copy of https://github.com/ptomasroos/react-native-multi-slider because I need version 2
+
 # react-native-multi-slider
 
 Pure JS react native slider component with one or two markers.
