@@ -32,7 +32,7 @@ export default class DefaultLabel extends React.Component {
   };
 
   render() {
-    const {leftDiff, labelStyle, labelTextStyle, oneMarkerValue, twoMarkerValue, oneMarkerLeftPosition, twoMarkerLeftPosition} = this.props;
+    const {leftDiff, labelStyle, labelTextStyle, oneMarkerValue, twoMarkerValue, oneMarkerLeftPosition = 0, twoMarkerLeftPosition = 0} = this.props;
 
     return (
       <View style={{position: 'relative'}}>
